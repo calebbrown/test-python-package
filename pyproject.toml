@@ -1,0 +1,12 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "test-python-package"
+authors = [
+    {name = "Caleb Brown"},
+]
+description = "Test Package"
+requires-python = ">=3.12"
+version = "0.0.1"
